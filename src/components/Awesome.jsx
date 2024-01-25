@@ -16,9 +16,9 @@ const Awesome = () => {
                   </a>
               </div>
           </div>
-          <img src={triangle1} alt="1" className='absolute bottom-[20%] left-[7%]' />
+          <img src={triangle1} alt="1" className='absolute bottom-[20%] left-[8%]' />
           <img src={triangle2} alt="2" className='absolute top-0 left-[36%]' />
-          <img src={triangle3} alt="3" className='absolute md:bottom-[15%] bottom-[31%] right-[5%]'/>
+          <img src={triangle3} alt="3" className='absolute md:bottom-[15%] bottom-[31%] right-[8%]'/>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const Footersec = () => {
       <div className="max-w-[1221px] mx-auto px-3 md:pt-[64px] sm:pt-12 pt-10">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="xl:w-5/12 lg:w-4/12 w-full px-3">
-            <img src={footerlogo} alt="logo" />
+            <a href=""><img src={footerlogo} alt="logo" /></a>
             <p className=" max-w-[296px] font-inter text-base font-normal leading-[32px] text-[#E6E6E6] pt-3">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
               aliquam, purus sit amet luctus venenatis, lectus magna fringilla

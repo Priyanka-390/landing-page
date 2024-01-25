@@ -61,17 +61,17 @@ const Herosec = () => {
                 </h1>
               )}
               {next === "tab2" && (
-                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
+                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto md:!leading-[77.5px]">
                   Premium Web Domain for Your Website
                 </h1>
               )}
               {next === "tab3" && (
-                <h1 className="text-[#2E2E2E]  xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
+                <h1 className="text-[#2E2E2E]  xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto md:!leading-[77.5px]">
                   Premium Web SEO for Your Website
                 </h1>
               )}
               {next === "tab4" && (
-                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
+                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto md:!leading-[77.5px]">
                   Premium Web Email for Your Website
                 </h1>
               )}
