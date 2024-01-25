@@ -10,7 +10,7 @@ const Herosec = () => {
     setnext(tab);
   }
   return (
-    <div className="lg:py-20 md:py-16 sm:py-10 py-8 overflow-x-clip">
+    <div className="lg:pb-20 lg:pt-14 md:py-14 sm:py-10 py-8 overflow-x-clip" id="hero">
       <div className="container max-w-[1138px] px-3 mx-auto ">
         <div className="flex flex-row flex-wrap -mx-3">
           <div className="lg:w-1/2 w-full px-3 " data-aos="fade-right" data-aos-delay='3000'>
@@ -56,29 +56,29 @@ const Herosec = () => {
             </div>
             <div className="md:pt-[26px] sm:pt-5 pt-4">
               {next === "tab1" && (
-                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold leading-[121.094%] lg:text-start text-center mx-auto">
+                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold md:!leading-[77.5px] lg:text-start text-center mx-auto">
                   Premium Web Hosting for Your Website
                 </h1>
               )}
               {next === "tab2" && (
-                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[121.094%]">
+                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
                   Premium Web Domain for Your Website
                 </h1>
               )}
               {next === "tab3" && (
-                <h1 className="text-[#2E2E2E]  xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[121.094%]">
+                <h1 className="text-[#2E2E2E]  xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
                   Premium Web SEO for Your Website
                 </h1>
               )}
               {next === "tab4" && (
-                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[121.094%]">
+                <h1 className="text-[#2E2E2E] xl:text-[64px] lg:text-6xl md:text-[52px] sm:text-5xl text-4xl font-poppins font-bold lg:text-start text-center mx-auto leading-[77.5px]">
                   Premium Web Email for Your Website
                 </h1>
               )}
             </div>
 
             <div className="flex lg:justify-start justify-center ">
-              <p  className="text-[#808080] lg:pt-8 md:pt-6 lg:text-start text-center sm:pt-3 pt-2 max-w-[448px] font-inter text-base font-normal leading-[175%] tracking-[0.8px]">
+              <p  className="text-[#808080] lg:pt-8 md:pt-6 lg:text-start text-center sm:pt-3 pt-2 max-w-[448px] font-inter text-base font-normal md:!leading-[28px] tracking-[0.8px]">
                 Blazing fast web hosting for individuals and businesses of all
                 sizes backed by 24x7x365 Support.
               </p>

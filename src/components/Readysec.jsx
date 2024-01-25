@@ -217,7 +217,7 @@ const Readysec = () => {
     <div className=" lg:pt-32 md:pt-20 sm:pt-12 pt-10 overflow-x-clip" id="ready">
       <div className="container max-w-[1097px] mx-auto px-3">
         <div className="flex justify-center flex-col">
-          <h2 data-aos="zoom-in-down" className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold leading-[120%] max-w-[650px]">
+          <h2 data-aos="zoom-in-down" className="text-black font-poppins text-center mx-auto lg:text-[50px] md:text-5xl sm:text-4xl text-3xl font-semibold md:!leading-[60px] max-w-[650px]">
             Ready to get started with Lemon Wares?
           </h2>
           <p data-aos="zoom-in-up" className="md:pt-9 sm:pt-5 pt-3 text-black font-poppins md:text-[25px] text-xl font-normal leading-[100%] text-center mx-auto">
@@ -230,12 +230,12 @@ const Readysec = () => {
               Monthly
             </p>
             <div
-              className="relative md:w-[93px] w-[63px]  h-[30px] md:h-[50px] ml-8 bg-[#B00000] px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500"
+              className={`relative md:w-[93px] w-[63px]  h-[30px] md:h-[50px] ml-8 px-[9px] py-[10px] cursor-pointer rounded-[73px] duration-500 ${ toggle ? " bg-[#FFE87A]" : "bg-[#b00000]"}`}
               onClick={btn}
             >
               <div
                 className={`bg-white md:h-[30px] h-[20px] md:w-[30px] w-[20px] max-md:top-[20%] absolute rounded-full duration-500 transition-all ${
-                  toggle ? "right-[10%]" : "left-[10%]"
+                  toggle ? "right-[10%]" : "right-[55px]"
                 }`}
               ></div>
             </div>

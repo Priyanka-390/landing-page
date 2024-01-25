@@ -12,13 +12,13 @@ const Mynav = () => {
     }
   }
   return (
-    <div className="md:pt-10 sm:pt-8 pt-6">
+    <div className="sticky top-0 bg-white md:pt-10 sm:pt-8 py-2 z-20 md:pb-6">
       <div className="container max-w-[1138px] px-3 mx-auto">
-        <div className="flex justify-between items-center">
+        <div className="flex justify-between items-center  ">
           <div className="flex items-center gap-32">
             <ul className="md:gap-16 flex items-center">
               <li>
-                <a href="">
+                <a href="#">
                   <img src={logo} alt="logo" />
                 </a>
               </li>

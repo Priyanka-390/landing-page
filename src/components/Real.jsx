@@ -11,7 +11,7 @@ const Real = () => {
           <div className="lg:w-1/2 w-full px-3 pb-9">
             <div className="flex justify-center lg:justify-end pb-6 ">
               <div>
-                <h2 className="lg:text-5xl md:text-[40px] sm:text-4xl text-[30px] font-inter font-extrabold leading-[133.333%] text-[#18191F] lg:max-w-[445px] max-w-[600px] sm:mb-2 mb-1 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
+                <h2 className="lg:text-5xl md:text-[40px] sm:text-4xl text-[30px] font-inter font-extrabold md:!leading-[64px] text-[#18191F] lg:max-w-[445px] max-w-[600px] sm:mb-2 mb-1 text-center lg:text-start relative after:absolute after:left-[-12px] lg:after:left-[-55px] xl:after:left-[-95px] after:top-[-56px] z-1 after:z-[-1] after:content-[url(./assets/images/Quote.webp)] after:w-[143px] after:h-[120px]">
                   Real Stories from Real Customers
                 </h2>
                 <p className="font-inter text-lg  font-normal leading-[177.778%] text-[#18191F] text-center lg:text-start">
