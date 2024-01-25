@@ -95,7 +95,7 @@ const Herosec = () => {
               </button>
             </div>
           </div>
-          <div data-aos="fade-left" data-aos-delay='3000' className="lg:w-1/2 w-full px-3 flex lg:justify-end justify-center lg:pt-0 pt-4 xl:translate-x-14">
+          <div className="lg:w-1/2 w-full px-3 flex lg:justify-end justify-center lg:pt-0 pt-4 xl:translate-x-14">
             <div className="relative">
               <img src={girlimg} alt="img" />
               <img
