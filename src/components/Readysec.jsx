@@ -33,22 +33,22 @@ const Readysec = () => {
   }
 
   const data = myArray.map((myArray, i) => (
-     <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex"data-aos="zoom-in">
+     <div className="lg:w-1/3 sm:w-1/2 w-full px-3  justify-center flex"data-aos="zoom-in" key={i}>
             <div
               className="card max-w-[299px] w-full rounded-[15px] max-lg:mt-3 border-[1.5px] border-[#C4C4C4] shadow-[0px_0px_4px_0px_#00000040_inset] bg-white md:pt-[34px] sm:pt-7 pt-6 md:pb-12 sm:pb-10 pb-8 md:pl-[35px] pl-7 md:pr-[28px] pr-5
 "
             >
               <p className="text-black font-poppins text-[28px] font-semibold leading-[89.286%]">
-          {Premium === "tabone" && (<div>{myArray.heading}</div>)}
-          {Premium==="tabsecond"&&(<div>{myArray.heading4}</div>)} 
+          {Premium === "tabone" && (<span>{myArray.heading}</span>)}
+          {Premium==="tabsecond"&&(<span>{myArray.heading4}</span>)} 
               </p>
               <p className="md:pt-[11px] sm:pt-2 pt-1 text-black text-xs font-normal leading-[150%] max-w-[237px] font-poppins">
                 with all your customers via all conversation channels in one
                 central dashboard.
               </p>
               <p className="font-poppins text-black md:text-[42px] text-3xl font-semibold leading-[76.19%] md:pt-7 sm:pt-5 pt-4">
-                {Premium === "tabone" && (<div>{myArray.heading2}</div>)}
-          {Premium==="tabsecond"&&(<div>{myArray.heading3}</div>)} 
+                {Premium === "tabone" && (<span>{myArray.heading2}</span>)}
+          {Premium==="tabsecond"&&(<span>{myArray.heading3}</span>)} 
               </p>
               <p className="text-black font-poppins text-[14px] font-[300] pt-[11px] leading-[100%]">
                {toggle?"Per month":"Per year"}
